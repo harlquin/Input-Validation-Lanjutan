@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Check Variabel</title>
+</head>
+<body>
+Pertemuan ke-9 Fundamental Secure Coding <br>
+NIM	: 1914000038<br>
+Nama: Alfian<br>
+<form action="prosCheck.php" method="post">
+	Nama : <input type="text" name="nama" required><br><br>
+	Email: <input type="email" size="30" name="email" required
+	placeholder="Enter a Valid email address"><br><br>
+	Situs: <input type="url" name="situs" required><br><br>
+	Usia : <input type="number" name="usia" min="16" max="90" value="16"><br><br>
+	Nilai: <input type="range" name="nilai" min="1" max="5" value="3">(antara 1 s/d 5)<br><br>
+Gender: 
+	<input type="radio" name="gender" value="pria" checked>Pria
+	<input type="radio" name="gender" value="wanita">Wanita<br><br>
+<input type="checkbox" name="moda1" value="KRL">Kerete Rel Listrik
+<input type="checkbox" name="moda2" value="LRT">Light Rapid Transit
+<input type="checkbox" name="moda3" value="MRT">Mass Rapid Transit
+<input type="checkbox" name="moda4" value="TRJ">TransJakarta
+<br><br>
+<!--TgLhr :<input type="text" name="tgl"><br><br>-->
+<!--Tg : <input type="number" name="tg" min="1" max="31" value="1">
+Bl : <input type="number" name="bl" min="1" max="12" value="1">
+Th : <input type="number" name="th" min="2020" max="2030" value="2020"><br><br>-->
+TgLhr : <input type="date" name="tgl"><br><br>
+
+<input type="submit" value="Proses">
+</form>
+</body>
+</html>
